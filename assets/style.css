@@ -61,6 +61,7 @@ header h1 {
 header nav ul {
     float:right;
     list-style-type: none;
+    text-align: ;
 }
 
 
@@ -92,7 +93,7 @@ header nav ul li {
 
 .card {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 20px;
     height: 300px;
     font-family: 'Lucida', 'Courier New', 'Courier', monospace, sans-serif;
     color: #ffffff;
@@ -113,20 +114,28 @@ header nav ul li {
     margin-bottom: 30px;
     font-size: 36px;
 }
-
+.cardtwo {
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 325px;
+    font-family: 'Lucida', 'Courier New', 'Courier', monospace, sans-serif;
+    color: #ffffff;
+    background-color: rgb(191, 163, 2);
+}
 
 .hobbie-box {
     display:inline-flex;
     justify-content: center;
     position: absolute;
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: Left;
     width: 20%;
-    height: 100%;
-    background-color: rgb(191, 163, 2);
     color:#ffffff;
+}
+h3 {
+    font-size: 100%;
+    flex-wrap: flex;
+    flex-direction: wrap;
+    text-align: center;
+
 }
 
 .footer {
@@ -142,7 +151,9 @@ header nav ul li {
 }
 
 .about-me{
-    padding:10px 20px;
+    flex-wrap: wrap;
+    border: solid;
+    text-size-adjust: flex;
     transform: rotate(10deg);
 }
 
